@@ -3,7 +3,7 @@ def calcul(n,com):
   taux_liver=0.87
   if com =="dollar":
     return n*taux_dollar
-  elif com =="livre":
+  elif com =="livre-sterling":
     return n*taux_liver
 
 
